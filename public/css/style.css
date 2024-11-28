@@ -1,0 +1,30 @@
+body {
+    background-color: #252525;
+}
+
+h1{
+    color: red;
+}
+.todoItem {
+    border: 1px solid white;
+     margin: 8px 0;
+}
+.task {
+    display: inline-block;
+    width: 300px;
+
+}
+.completed{
+    text-decoration: line-through;
+    color: green;
+}
+.not{
+    text-decoration: underline;
+    color: red;
+}
+
+.todos {
+/*    border: 1px solid red;*/
+    display: inline-block;
+    list-style-type: none;
+}
